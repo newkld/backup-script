@@ -6,7 +6,7 @@ name: Fetch Upstream
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 */12 * * *
+    - cron: 0 */6 * * *
     # 每隔6小时
 jobs:
   openwrt_packages:
