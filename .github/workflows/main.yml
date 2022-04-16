@@ -33,7 +33,7 @@ jobs:
           target_branch: main  # 默认推送到你的仓库master分支
           force: true  # 是否强制推送
           tags: true  # 确定是否使用-tags
-  lede:
+  pyarmor:
     runs-on: ubuntu-latest
     steps:
       - uses: TobKed/github-forks-sync-action@master
